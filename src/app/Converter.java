@@ -12,12 +12,12 @@ public class Converter {
 
     public static void main(String[] args) {
         // Приклад конвертації міль у кілометри
-        double miles = 5;
+        double miles = 14;
         double kilometers = milesToKilometers(miles);
         System.out.printf("%.2f міль = %.2f кілометрів%n", miles, kilometers);
 
         // Приклад конвертації кілометрів у мілі
-        kilometers = 8;
+        kilometers = 48;
         miles = kilometersToMiles(kilometers);
         System.out.printf("%.2f кілометрів = %.2f міль%n", kilometers, miles);
     }
